@@ -16,18 +16,18 @@ To write and execute an Assembly language program for finding the square of a gi
 
 ## PROGRAM
 ```
-
-
-
-
-
-
-
-
-
+ORG 0000H
+MOV R0,#50H
+MOV A,@R0 
+MOV B,@R0 
+MUL AB
+INC R0 
+MOV @R0,A
+END
 ```
 
 ## OUTPUT
+<img width="1600" height="858" alt="WhatsApp Image 2026-05-21 at 11 01 52" src="https://github.com/user-attachments/assets/c85ab63e-6b00-4edf-b3e9-120be2b9743b" />
 
 
 ## RESULT
@@ -50,17 +50,19 @@ To write and execute an Assembly language program for finding the cube of a give
 
 ## PROGRAM
 ```
-
-
-
-
-
-
-
-
+ORG 00H
+MOV R0,#50H
+MOV A,@R0
+MOV B,A
+MUL AB
+MOV B,@R0
+MUL AB
+INC R0
+MOV @R0,A
+INC R0
+MOV @R0,B
+END
 ```
-
-
 ## OUTPUT
 
 ## RESULT
