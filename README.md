@@ -64,6 +64,7 @@ MOV @R0,B
 END
 ```
 ## OUTPUT
+<img width="1600" height="853" alt="image" src="https://github.com/user-attachments/assets/dbe9828a-b02f-4a7f-97f4-c98fe41f8b97" />
 
 ## RESULT
 Thus, the cube of the given data is calculated using 8051 Keil.
